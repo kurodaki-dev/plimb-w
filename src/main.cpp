@@ -81,7 +81,7 @@ class $modify(MyPlayLayer, PlayLayer) {
             }
         ],
         "footer": {
-            "text": "Geometry Dash - Normal Mode"
+            "text": "Geometry Dash"
         }
     }]
 })";
