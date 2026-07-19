@@ -1,0 +1,40 @@
+{
+	"geode": "5.8.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "kurodaki.plimbw",
+	"name": "plimb'w (open beta 1.0.0)",
+	"version": "v1.0.0",
+	"developer": "kurodaki",
+	"description": "",
+	"resources": {
+		"fonts": {
+			"phonk": {
+				"path": "resources/fonts/phonk.otf",
+				"size": 128,
+				"charset": "32-126,8226"
+			}
+	}
+},
+	"settings": {
+		"webhook-url": {
+			"name": "Webhook URL",
+			"description": "Discord webhook url",
+			"type": "string",
+			"default": ""
+		},
+		"username": {
+			"name": "Display Name",
+			"description": "the name shown as a webhook sender in discord",
+			"type": "string",
+			"default": ""
+		}
+	},
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	}
+}
